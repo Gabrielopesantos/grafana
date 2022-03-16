@@ -24,7 +24,7 @@ export const getAllOptionEditors = () => {
     id: 'dashboard-uid',
     name: 'Dashboard',
     description: 'Select dashboard',
-    editor: DashboardPicker as any,
+    editor: DashboardPicker,
   };
 
   const mappings: StandardEditorsRegistryItem<ValueMapping[]> = {
